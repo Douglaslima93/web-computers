@@ -10,11 +10,11 @@
         <ul>
 
             <li>
-                <a class="main-header__menu a">Produtos</a>
+                <a routerLink="produtos" class="main-header__menu a">Produtos</a>
             </li>
 
             <li>
-                <a class="main-header__menu a">
+                <a routerLink="carrinho" class="main-header__menu a">
                     <i class="fa-solid fa-cart-shopping"></i>
                     Carrinho
                     <span class="badge-carrinho">{{ carrinhoService.obtemCarrinho().length }}</span>
