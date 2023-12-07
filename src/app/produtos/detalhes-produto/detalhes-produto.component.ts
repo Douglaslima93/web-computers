@@ -12,7 +12,7 @@ import { IProdutoCarrinho } from 'src/app/produtos';
 })
 export class DetalhesProdutoComponent implements OnInit {
   produto: IProduto | undefined;
-  quantidade = 1;
+  quantidade: Number = 1;
 
   constructor(
     private produtosService: ProdutosService,

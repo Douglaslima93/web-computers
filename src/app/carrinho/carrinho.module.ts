@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-
+import { FormsModule } from '@angular/forms'
 import { CarrinhoRoutingModule } from './carrinho-routing.module';
 import { CarrinhoComponent } from './carrinho.component';
 
@@ -11,7 +11,8 @@ import { CarrinhoComponent } from './carrinho.component';
   ],
   imports: [
     CommonModule,
-    CarrinhoRoutingModule
+    CarrinhoRoutingModule,
+    FormsModule
   ]
 })
 export class CarrinhoModule { }
